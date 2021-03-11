@@ -94,6 +94,10 @@ p{
     font-size: 32px;
     font-family: 'Abril Fatface', cursive;
 }
+.p{
+    color:azure;
+    font-size 25px;
+}
 .centered5{
   position: absolute;
   top: 96%;
@@ -105,6 +109,13 @@ p{
 }
 u{
     color:white;
+}
+center{
+    font-family:'Abril Fatface', cursive;
+    color:aliceblue;
+}
+#about{
+    background:linear-gradient(to right, #1b1e75,#043047);
 }
 fa-instagram{
     width: 50px;
