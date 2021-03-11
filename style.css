@@ -2,6 +2,7 @@
     text-decoration-color: floralwhite;
     background-color: black;
     font-family: 'Abril Fatface', cursive;
+    position: sticky;
 }
 h3{
     color:white;
@@ -65,7 +66,7 @@ h3{
 }
 .centered3{
   position: absolute;
-  top: 83%;
+  top: 78%;
   left: 66%;
   transform: translate(0%, 100%);
     color: white;
@@ -80,14 +81,16 @@ fa-envelope{
 .ab{
     font-family:'Fredoka One', cursive;
     border-radius: 30%;
-    top:80%;
+    top:95%;
 }
 p{
     font-family: 'Fredoka One', cursive;
+    font-size:20px;
+    
     }
 .centered4{
   position: absolute;
-  top: 135%;
+  top: 120%;
   left: 66%;
   transform: translate(0%, 100%);
     color: white;
@@ -96,7 +99,7 @@ p{
 }
 .p{
     color:azure;
-    font-size 25px;
+    font-size:25px;
 }
 .centered5{
   position: absolute;
@@ -107,16 +110,25 @@ p{
     font-size: 32px;
     font-family: 'Abril Fatface', cursive;
 }
+body{
+    background:linear-gradient(to right, #1b1e75,#043047);
+}
 u{
     color:white;
 }
 center{
-    font-family:'Abril Fatface', cursive;
+    font-family: 'Great Vibes', cursive;
     color:aliceblue;
+   
 }
-#about{
-    background:linear-gradient(to right, #1b1e75,#043047);
+
+html{
+    scroll-behavior:smooth;
 }
+.heading{
+     font-size: 40px;
+}
+
 fa-instagram{
     width: 50px;
     height:50px;
