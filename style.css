@@ -35,6 +35,7 @@ h3{
     color:white;
     margin-bottom: 100px;
 }
+
 .container {
   
   text-align: center;
@@ -58,6 +59,7 @@ h3{
     font-size: 32px;
     font-family: 'Abril Fatface', cursive;
 }
+
 .top-right {
   position: absolute;
   top: 27%;
@@ -88,6 +90,7 @@ p{
     font-size:20px;
     
     }
+
 .centered4{
   position: absolute;
   top: 120%;
@@ -97,9 +100,48 @@ p{
     font-size: 32px;
     font-family: 'Abril Fatface', cursive;
 }
+.drawing{
+    margin-left: 300px;
+    margin-bottom:100px;
+    width:400px;
+    height:280px;
+}
 .p{
+    
     color:azure;
     font-size:25px;
+    font-family: 'Fredoka One', cursive;
+}
+.d_r{
+    width:200px;
+    height:200px;
+
+}
+#dance{
+    font-size: 30px;
+}
+.dance{
+    height:320px;
+    width:500px;
+}
+.ambani{
+    cursor:pointer;
+}
+.modal-title{
+    color:black;
+}
+.img_modal{
+    align-content: center;
+    
+}
+.p_modal{
+    color:black
+}
+.modal-content{
+    margin-top: 100px;
+}
+.modal-body{
+    text-align:center;
 }
 .centered5{
   position: absolute;
@@ -111,7 +153,7 @@ p{
     font-family: 'Abril Fatface', cursive;
 }
 body{
-    background:linear-gradient(to right, #1b1e75,#043047);
+    background:linear-gradient(to right, #010b1a,#021b40,#010b1a);
 }
 u{
     color:white;
@@ -127,8 +169,16 @@ html{
 }
 .heading{
      font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+    color:aliceblue;
+    text-align:center;
 }
-
+.heading_s{
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+    color:blue;
+    text-align:center;
+}
 fa-instagram{
     width: 50px;
     height:50px;
@@ -136,4 +186,48 @@ fa-instagram{
 }
 h2{
     font-size: 45px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+#apps{
+    display: flex;
+    flex-direction: row;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.cardt{
+    color:white;
+    font-family:'Abril Fatface', cursive;
+}
+.cardp{
+    color:white;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+.card img{
+    height:180px;
+}
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
 }
